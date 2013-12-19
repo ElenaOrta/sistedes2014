@@ -149,8 +149,28 @@ i.comite-icon {
 
 /* Footer */
 
-footer {
-  padding: 100px 0;
+.footer {
+  position: relative;
+  margin-top: -10em;
+  height: 10em;
+  clear:both;
+  background-color: #7fbbda;
+  display: none;
+}
+.index-footer-header{
+  font-size: 0.8em;
+  font-weight: bold;
+  padding: 10px;
+  color: #ffffff;
+}
+.index-footer-title{
+  font-size: 2.6em;
+  font-weight: bold;
+  color: #ffffff;
+}
+.index-footer-subtitle{
+  font-size: 1.1em;
+  color: #ffffff;
 }
 
 .top-scroll {
