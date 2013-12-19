@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Sistedes 2014</title>
+	
+	<!-- Icon -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+
+    <!-- Add custom CSS here -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/jquery.countdown.css" />
+        
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+	<script src="js/jquery.countdown.js"></script>
+	<script src="js/script.js"></script>
+
+	
+  </head>
+
+  <body>
+
+    <!-- Fixed Top Menu -->
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand customized-navbar-brand vertical-line" href="index.html">
+		    <img class="img-responsive img-menu" src="img/logo.png" alt="Logo Sistedes 2014">
+		  </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!--<li class="active"><a href="#">Home</a></li>-->
+            <li><a href="intro.html">Intro</a></li>
+			<li><a href="programa.html">Programa</a></li>
+			<li><a href="comites.html">Comités</a></li>
+			<li class="active"><a href="cfp.html">Call for Papers</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+			<li><a href="lugar.html">Lugar</a></li>
+			<li><a href="patrocinadores.html">Sponsors</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jornadas <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li class="dropdown-header">JISBD</li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">PROLE</li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+				<li class="divider"></li>
+				<li class="dropdown-header">JCIS</li>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </li>
+          </ul>
+          <!--<ul class="nav navbar-nav navbar-right">
+            <li class="btn btn-success"><a href="registro.html">Regístrate</a></li>
+          </ul>-->
+        </div>
+      </div>
+    </div>
+    <!-- /Fixed Top Menu -->
+
+    <!-- Call for Papers -->
+    <div id="callforpapers" class="callforpapers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Call For Papers</h2>
+            <hr>
+			
+			<!-- Button trigger popup -->
+			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#papersubmission">
+			Paper Submission
+			</button>
+			<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#importantdates">
+			Important Dates
+			</button>
+
+			<!-- Paper Submission Popup -->
+			<div class="modal fade" id="papersubmission" tabindex="-1" role="dialog" aria-labelledby="psPopupTitle" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="psPopupTitle">Lorem Ipsum</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+						Aenean varius lorem est, sed commodo neque ornare eu. Lorem ipsum dolor sit amet, 
+						consectetur adipiscing elit. Integer lobortis enim diam, non molestie odio consectetur 
+						in. Integer et vehicula eros, at dignissim ipsum. Vestibulum sit amet mattis quam, id 
+						egestas ligula. Nam lacinia, orci vel pulvinar placerat, orci sapien pretium augue, in 
+						rutrum tellus justo vel massa. Integer fringilla dapibus congue. Praesent sit amet 
+						vulputate ligula. Pellentesque vitae placerat diam, et ultricies turpis. Cum sociis 
+						natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat 
+						volutpat. Nam eget condimentum neque, nec posuere augue. Sed hendrerit massa et enim 
+						pellentesque, vel mollis augue gravida. Cras vestibulum quam ac orci mollis, at pretium 
+						velit vehicula. Donec sodales nunc nec metus sagittis, in viverra est aliquam. Etiam 
+						suscipit mauris vel consequat ultrices.
+
+						Morbi sodales turpis a est adipiscing suscipit. Aliquam iaculis adipiscing risus, in 
+						varius est dignissim sed. Etiam ac fringilla nulla, vel elementum sapien. Proin mi nulla, 
+						luctus ut urna non, venenatis molestie nunc. Sed sodales molestie arcu, ut fermentum 
+						neque pretium sed. Nam aliquet aliquam augue, ut varius sapien egestas ut. Cras eget arcu 
+						rutrum, facilisis nulla vitae, semper est. Nam sed placerat nibh, sit amet egestas quam. 
+						Aenean dapibus risus ac quam dictum elementum. Integer a orci nisi. Phasellus at 
+						consequat mauris. Maecenas ut urna at ante posuere vestibulum. Phasellus ornare leo ut 
+						nulla varius tristique. Morbi aliquam tincidunt nisi sed ultrices. Nulla in enim felis.
+
+						Duis non laoreet metus. Nam ornare volutpat placerat. Nulla varius diam mi, eu dapibus 
+						purus blandit non. Fusce posuere augue nec felis lacinia, in mollis leo porttitor. 
+						Mauris interdum tincidunt ante nec tincidunt. Nulla fermentum nisl nec ipsum aliquet, 
+						at euismod orci hendrerit. Donec quis iaculis nisi, sit amet tempor justo. Aliquam erat 
+						volutpat. Suspendisse tincidunt magna enim, at blandit est aliquam id. Donec sodales lacus 
+						ac nisi accumsan, nec porttitor mi luctus. Nunc ac tempus augue, nec semper justo. 
+						Curabitur eget ante a metus placerat mollis fringilla vel ligula. Vivamus enim risus, 
+						viverra non feugiat sit amet, mattis non leo. Fusce interdum odio a egestas fermentum. 
+						Nullam vehicula nunc non hendrerit bibendum. Aenean id est ac libero aliquet sollicitudin 
+						et a lacus.
+						</p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- /Paper Submission Popup -->
+			
+			<!-- Important Dates Popup -->
+			<div class="modal fade" id="importantdates" tabindex="-1" role="dialog" aria-labelledby="idPopupTitle" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title" id="idPopupTitle">Nam sed placerat</h4>
+					</div>
+					<div class="modal-body">
+						<p>
+						Aenean varius lorem est, sed commodo neque ornare eu. Lorem ipsum dolor sit amet, 
+						consectetur adipiscing elit. Integer lobortis enim diam, non molestie odio consectetur 
+						in. Integer et vehicula eros, at dignissim ipsum. Vestibulum sit amet mattis quam, id 
+						egestas ligula. Nam lacinia, orci vel pulvinar placerat, orci sapien pretium augue, in 
+						rutrum tellus justo vel massa. Integer fringilla dapibus congue. Praesent sit amet 
+						vulputate ligula. Pellentesque vitae placerat diam, et ultricies turpis. Cum sociis 
+						natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam erat 
+						volutpat. Nam eget condimentum neque, nec posuere augue. Sed hendrerit massa et enim 
+						pellentesque, vel mollis augue gravida. Cras vestibulum quam ac orci mollis, at pretium 
+						velit vehicula. Donec sodales nunc nec metus sagittis, in viverra est aliquam. Etiam 
+						suscipit mauris vel consequat ultrices.
+              			</p>
+						<ul>
+						    <li><a href="#">Duis non laoreet</a></li>
+						    <li>Aenean id est</li>
+						    <li>Fusce interdum</li>
+						    <li>Nulla fermentum</li>
+						</ul>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+						
+					</div>
+				</div>
+			</div>
+			</div>
+			<!-- /Important Dates Popup -->
+			
+          </div>
+        </div>
+		
+		
+		
+		
+		
+        <!-- Call for Papers
+    <div id="callforpapers" class="callforpapers">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-4 text-center">
+            <h2>Call For Papers</h2>
+            <hr>
+		
+		<div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="cfp-item">
+              <a href="#"><img class="img-cfp img-responsive" src="img/portfolio-1.jpg"></a>
+              <h4>Paper Submission</h4>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="cfp-item">
+              <a href="#"><img class="img-cfp img-responsive" src="img/portfolio-2.jpg"></a>
+              <h4>Important Dates</h4>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 text-center">
+            <div class="cfp-item">
+              <a href="#"><img class="img-cfp img-responsive" src="img/portfolio-3.jpg"></a>
+              <h4>CFP3</h4>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="cfp-item">
+              <a href="#"><img class="img-cfp img-responsive" src="img/portfolio-4.jpg"></a>
+              <h4>CFP4</h4>
+            </div>
+          </div>
+        </div>-->
+      </div>
+    </div>
+    <!-- /Call for Papers -->
+  </body>
+</html>

@@ -1,0 +1,193 @@
+/* Global Styles */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+.vertical-line {
+    border-right: thick solid #7fbbda;
+	color: #ffffff;
+}
+.center-y {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  color: #ffffff;  
+}
+
+.center-y h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 4.5em;
+  font-weight: 700;
+  color: #ffffff;  
+}
+
+/* Menu */
+
+.navbar-static-top {
+  margin-bottom: 0;
+}
+.customized-navbar-brand{
+  padding: 5px 5px 5px 5px;
+}
+
+/* Full Page Image Header Area */
+
+.header {
+  display: table;
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background: url(../img/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.index-title{
+  font-size: 100%;
+}
+
+.index-text{
+  font-size: 100%;
+}
+
+.img-menu{
+  height: 32px;
+  width: 32px;
+}
+
+/* Intro */
+
+.intro{
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  padding: 75px 0;
+  margin: 0 auto;
+}
+
+/* Comités */
+
+.comites {
+  height: 100%;
+  width: 100%;
+  background: #7fbbda;
+  color: #ffffff;
+  padding: 75px 0;
+}
+
+.comite-item {
+  margin-bottom: 15px;
+}
+
+i.comite-icon {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+/* Call For Papers */
+
+.callforpapers {
+  padding: 75px 0;
+}
+
+.callforpapers .btn {
+  margin: 2em;
+}
+
+/* Sponsors */
+
+.sponsors {
+  padding: 75px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.sponsors-item {
+  margin-bottom: 25px;
+}
+
+.img-sponsors {
+  margin: 0 auto;
+}
+
+/* Contacto */
+
+.contacto {
+  color: #ffffff;
+  background: #0a5175;
+  padding: 75px 0;
+  height: 100%;
+  width: 100%;
+}
+
+/* Map */
+
+.map {
+  height: 80%;
+}
+
+/* Fechas */
+
+.fechas{
+  height: 80%;
+  width: 75%;
+  padding: 75px 0;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  padding: 100px 0;
+}
+
+.top-scroll {
+  margin-top: 50px;
+}
+
+.top-scroll a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i.scroll {
+  color: #333333;
+}
+
+i.scroll:hover {
+  color: #0a5175;
+}
+/* Responsive */
+
+@media (max-width: 768px) {
+	
+  .header {
+	background: url(../img/bg.jpg) no-repeat center center scroll; 
+  }
+  .countdown-anim { /* Hide countdown */
+    display: none;
+  }
+  .index-title{
+    font-size: 70%;
+  }
+  .index-text{
+    font-size: 80%;
+  }
+  
+  .map {
+	height: 75%;
+  }
+
+}
