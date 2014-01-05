@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="author" content="Germán Rivas Gómez">
+    <meta name="author" content="">
 
     <title>Sistedes 2014</title>
 	
@@ -15,9 +15,8 @@
     <link href="css/bootstrap.css" rel="stylesheet" />
 
     <!-- Add custom CSS here -->
-    <link href="css/style.css" rel="stylesheet" />
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" />
-	<link rel="stylesheet" href="css/jquery.countdown.css" />
+    <link href="css/style.css" rel="stylesheet" />
         
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -26,9 +25,6 @@
 	<!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
-	<script src="js/jquery.countdown.js"></script>
-	<script src="js/script.js"></script>
-
 	
   </head>
 
@@ -39,7 +35,7 @@
       <div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
+            <span class="sr-only"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -51,74 +47,284 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <!--<li class="active"><a href="#">Home</a></li>-->
-            <li><a href="intro.html">Intro</a></li>
-			<li><a href="programa.html">Programa</a></li>
-			<li><a href="comites.html">Comités</a></li>
-			<li><a href="cfp.html">Call for Papers</a></li>
-			<li><a href="contacto.html">Contacto</a></li>
-			<li><a href="lugar.html">Lugar</a></li>
-			<li><a href="patrocinadores.html">Sponsors</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Jornadas <b class="caret"></b></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-header">JISBD</li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-				<li class="divider"></li>
-				<li class="dropdown-header">PROLE</li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-				<li class="divider"></li>
-				<li class="dropdown-header">JCIS</li>
-                <li><a href="#">Link 1</a></li>
-                <li><a href="#">Link 2</a></li>
-                <li><a href="#">Link 3</a></li>
-              </ul>
-            </li>
+            <li><a href="#presentacion">Presentación</a></li>
+			<li><a href="#programa">Programa</a></li>
+			<li><a href="#registro">Registro</a></li>
+			<li><a href="#localizacion">Localización</a></li>
+			<li></li>
           </ul>
-          <!--<ul class="nav navbar-nav navbar-right">
-            <li class="btn btn-success"><a href="registro.html">Regístrate</a></li>
-          </ul>-->
+		  <ul class="nav navbar-nav navbar-right">
+		  <a class="navbar-brand customized-navbar-brand center-y" href="#">
+		    <img class="img-responsive img-sistedes-logo-menu" src="img/sistedes.png" alt="Logo Sistedes 2014" />
+		  </a>
+		  </ul>
         </div>
       </div>
     </div>
     <!-- /Fixed Top Menu -->
   
-    <!-- Full Page Image Header Area -->
+	<!-- Full Page Image Header Area -->
     <div id="top" class="header">
       <div class="center-y">
         <h1 class="index-title">Jornadas Sistedes 2014</h1>
-		<div class="countdown-anim" id="countdown"></div>
-        <p id="note" class="index-text"></p>
-        <a href="intro.html" class="btn btn-info btn-lg">Saber más</a>
+		<!-- 3 Botones de Jornadas [Ajustar abajo]-->
+		<div class="row bottom">
+		<div id="bottom-buttons" class="bottom-buttons">
+          <div class="col-md-2 col-md-offset-2 text-center">
+		    <a href="#jisbd" type="button" class="btn btn-default btn-jisbd-title btn-lg">JISBD</a>
+		  </div>
+		  <div class="col-md-2 col-md-offset-1 text-center">
+		    <a href="#prole" type="button" class="btn btn-default btn-prole-title btn-lg">PROLE</a>
+		  </div>
+		  <div class="col-md-2 col-md-offset-1 text-center">
+		    <a href="#jcis" type="button" class="btn btn-default btn-jcis-title btn-lg">JCIS</a>
+		  </div>
+		</div>
+	    </div>
+		<!-- /3 Botones de Jornadas [Ajustar abajo]-->
       </div>
     </div>
-    <!-- /Full Page Image Header Area -->
-	<!-- Footer -->
-	<div class="footer">
+	
+	<!-- Fecha y Lugar-->
+	<div id="bottom-date" class="bottom-date">
 	  <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
-			<p class="index-footer-header">¿Cuándo?</p>
-			<p class="index-footer-title">9-12 Sep 2014</p>
-			<p class="index-footer-subtitle">Comienzo a las 09:00 AM</p>
+          <div class="col-md-3 col-md-offset-1 text-center text-bottom-date">
+		    16-19 Sep 2014
 		  </div>
-
-		  <div class="col-md-2 text-center"><i class="fa fa-calendar"></i></div>
-
-		  <div class="col-md-2 text-center"><i class="fa fa-clock-o"></i></div>			
-
-		  <div class="col-md-4 text-center">
-			<p class="index-footer-header">¿Dónde?</p>
-			<p class="index-footer-title">UCA, Cádiz</p>
-			<p class="index-footer-subtitle">Escuela Superior de Ingeniería</p>
+		  <div class="col-md-2 col-md-offset-1 text-center text-bottom-date">
+		    ICONS
+		  </div>
+		  <div class="col-md-3 col-md-offset-1 text-center text-bottom-date">
+		    Cádiz, España
 		  </div>
 		</div>
 	  </div>
-	</div>
-	<!-- /Footer -->
+    </div>
+	<!-- /Fecha y Lugar -->
+
+    <!-- /Full Page Image Header Area -->
+	
+	<!-- Intro -->
+    <div id="presentacion" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Presentación</h2>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p class="lead">
+				La Jornadas de la Asociación de Ingeniería del Software y Tecnologías de Desarrollo 
+				de Software (SISTEDES) son un evento científico-técnico nacional de ingeniería y 
+				tecnologías del software.
+				<br /><br />
+				La Universidad de Cádiz organiza SISTEDES 2014 que está compuesta por:
+				<br /><br />
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+					XIX Jornadas de Ingeniería del Software y Bases de Datos JISBD'2014
+				</button>
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+					XIV Jornadas sobre Programación y Lenguajes PROLE'2014
+				</button>	
+				<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#">
+					X Jornadas de Ciencia y Servicios JCIS'2014
+				</button>
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Intro -->
+	
+	<!-- Registro -->
+    <div id="registro" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Registro</h2>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p class="lead">
+				La información para el registro en las Jornadas se publicará 
+				próximamente en esta página.
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Registro -->
+	
+	<!-- Programa -->
+    <div id="programa" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Programa</h2>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p class="lead">
+				La información sobre el programa de las Jornadas se publicará 
+				próximamente en esta página.
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Programa -->
+	
+	<!-- Localización -->
+    <div id="localizacion" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+            <h2>Localización</h2>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p class="lead">
+				Las Jornadas Sistedes 2014 se celebrarán en Cádiz, ciudad considerada como la 
+				más antigua de Occidente.  La “tacita de plata” se sitúa en el extremo suroccidental 
+				de la península. Ciudad volcada al mar y al comercio,  liberal y revolucionaria, 
+				cuna de grandes civilizaciones que, a lo largo de los siglos han nutrido su larga e 
+				influyente historia.<br /><br />
+				Más información sobre Cádiz <a href="#">aquí</a><br /><br />
+				<iframe width="100%" height="100%" frameborder="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=Escuela+superior+de+ingenier%C3%ADa+Cadiz&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=29.910058,56.513672&amp;t=m&amp;ie=UTF8&amp;hq=Escuela+superior+de+ingenier%C3%ADa&amp;hnear=C%C3%A1diz,+Andaluc%C3%ADa,+Espa%C3%B1a&amp;ll=36.533555,-6.303338&amp;spn=0.003698,0.006899&amp;z=14&amp;iwloc=A&amp;cid=15419688576791441345&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=es&amp;geocode=&amp;q=Escuela+superior+de+ingenier%C3%ADa+Cadiz&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=29.910058,56.513672&amp;t=m&amp;ie=UTF8&amp;hq=Escuela+superior+de+ingenier%C3%ADa&amp;hnear=C%C3%A1diz,+Andaluc%C3%ADa,+Espa%C3%B1a&amp;ll=36.533555,-6.303338&amp;spn=0.003698,0.006899&amp;z=14&amp;iwloc=A&amp;cid=15419688576791441345" style="color:#0000FF;text-align:left">Ver mapa más grande</a></small>
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /Localización -->
+	
+	<!-- JISBD -->
+    <div id="jisbd" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+		    <button class="btn btn-primary btn-lg btn-jisbd-title" data-toggle="modal" data-target="#">
+				XIX Jornadas de Ingeniería del Software y Bases de Datos JISBD'2014
+			</button>
+			<br /><br />
+			<!-- Menú interno para jornada concreta -->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">Presentación</a></li>
+				<li><a href="#">CFP</a></li>
+				<li><a href="#">Fechas importantes</a></li>
+				<li><a href="#">Programa</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Comités <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Comité Ejecutivo</a></li>
+						<li><a href="#">Comité de Programa</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Noticias</a></li>
+			</ul>
+			
+            <h3>Presentación</h3>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p>
+				Las Jornadas de Ingeniería del Software y Bases de Datos (JISBD) se han consolidado 
+				como  un foro de referencia donde investigadores y profesionales de España, Portugal 
+				e Iberoamérica, en los campos de la Ingeniería del Software y de las Bases de Datos, 
+				pueden debatir e intercambiar ideas, crear sinergias y, sobre todo, conocer la 
+				investigación que se está llevando a cabo en nuestra comunidad. <br /><br />
+				JISBD 2014 es una conferencia organizada bajo los auspicios de Sistedes (Sociedad 
+				de Ingenierí­a del Software y Tecnologí­as de Desarrollo de Software).
+
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /JISBD -->
+	
+	<!-- PROLE -->
+    <div id="prole" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+		    <button class="btn btn-primary btn-lg btn-prole-title" data-toggle="modal" data-target="#">
+				XIV Jornadas sobre Programación y Lenguajes PROLE'2014
+			</button><br /><br />	
+			<!-- Menú interno para jornada concreta -->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">Presentación</a></li>
+				<li><a href="#">CFP</a></li>
+				<li><a href="#">Fechas importantes</a></li>
+				<li><a href="#">Programa</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Comités <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Comité Ejecutivo</a></li>
+						<li><a href="#">Comité de Programa</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Noticias</a></li>
+			</ul>
+			
+            <h3>Presentación</h3>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p>
+				Las Jornadas de PROgramación y LEnguajes (PROLE) constituyen un marco 
+				propicio de reunión, debate y divulgación para los grupos españoles que 
+				investigan en temas relacionados con la programación y los lenguajes de 
+				programación. <br /><br />
+				PROLE 2014 es una conferencia organizada bajo los auspicios de Sistedes 
+				(Sociedad de Ingenierí­a del Software y Tecnologí­as de Desarrollo de 
+				Software).
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /PROLE -->
+	
+	<!-- JCIS -->
+    <div id="jcis" class="seccion pagination-centered">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2 text-center">
+		    <button class="btn btn-primary btn-lg btn-jcis-title" data-toggle="modal" data-target="#">
+				X Jornadas de Ciencia y Servicios JCIS'2014
+			</button>	<br /><br />
+			<!-- Menú interno para jornada concreta -->
+			<ul class="nav nav-tabs">
+				<li class="active"><a href="#">Presentación</a></li>
+				<li><a href="#">CFP</a></li>
+				<li><a href="#">Fechas importantes</a></li>
+				<li><a href="#">Programa</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">
+						Comités <span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Comité Ejecutivo</a></li>
+						<li><a href="#">Comité de Programa</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Noticias</a></li>
+			</ul>
+			
+            <h3>Presentación</h3>
+			<hr style="background:#000000; border:0; height:2px" />
+            <p>
+				Las Jornadas de Ciencia e Ingeniería de Servicios (JCIS) surgen como un 
+				nuevo foro de discusión e intercambio de conocimiento y experiencias que 
+				no sólo se centra en los nuevos avances científicos, sino también en las 
+				tecnologías existentes en torno a la computación orientada a servicios y 
+				los procesos de negocio, las nuevas prácticas de ingeniería de servicios 
+				y las lecciones aprendidas por medio de experiencias reales.<br /><br />
+				JCIS 2014 es una conferencia organizada bajo los auspicios de Sistedes 
+				(Sociedad de Ingenierí­a del Software y Tecnologí­as de Desarrollo de 
+				Software).
+
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /JCIS -->
+	
   </body>
 
 </html>
