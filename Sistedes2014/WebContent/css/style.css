@@ -1,4 +1,4 @@
-/* Global Styles */
+/* Estilos Globales */
 
 html,
 body {
@@ -24,7 +24,7 @@ body {
   color: #ffffff;  
 }
 
-/* Menu */
+/* Menú Superior */
 
 .navbar-static-top {
   margin-bottom: 0;
@@ -33,11 +33,24 @@ body {
   padding: 5px 5px 5px 5px;
 }
 
-/* Full Page Image Header Area */
+.img-menu{
+  height: 40px;
+  width: 55px;
+}
+
+.img-sistedes-logo-menu{
+  height: 40px;
+  width: 130px;
+  padding-left: 1em;
+}
+
+
+/* Área inicial con título de la página y botones */
 
 .header {
+  padding: 50px 0;
   display: table;
-  height: 100%;
+  height: 85%;
   width: 100%;
   position: relative;
   background: url(../img/bg.jpg) no-repeat center center fixed; 
@@ -51,127 +64,70 @@ body {
   font-size: 100%;
 }
 
-.index-text{
-  font-size: 100%;
+.bottom-buttons{
+  width: 100%;
+  padding-top: 10%;
 }
 
-.img-menu{
-  height: 32px;
-  width: 32px;
+/* Botones de las jornadas */
+
+.btn-jisbd-title{
+  width: 80%;
+  border: none;
+  background-color: #084B8A;
+  color: #000000;
 }
 
-/* Intro */
+.btn-prole-title{
+  width: 80%;
+  border: none;
+  color: #000000;
+  background-color: #F5A9A9;
+}
 
-.intro{
+.btn-jcis-title{
+  width: 80%;
+  border: none;
+  color: #000000;
+  background-color: #A9E2F3;
+}
+
+/* Pie de página del Index con fecha y lugar del evento */
+
+.bottom-date{
+  height: 15%;
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-color: #084B8A;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.text-bottom-date{
+  padding-top: 1em;
+  font: arial;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ffffff;
+  position: relative;
+  
+}
+
+/* Secciones */
+
+.seccion{
   height: 100%;
   width: 100%;
   vertical-align: middle;
-  padding: 75px 0;
+  padding: 50px 0;
   margin: 0 auto;
 }
 
-/* ComitÃ©s */
 
-.comites {
-  height: 100%;
-  width: 100%;
-  background: #7fbbda;
-  color: #ffffff;
-  padding: 75px 0;
-}
 
-.comite-item {
-  margin-bottom: 15px;
-}
-
-i.comite-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
-
-/* Call For Papers */
-
-.callforpapers {
-  padding: 75px 0;
-}
-
-.callforpapers .btn {
-  margin: 2em;
-}
-
-/* Sponsors */
-
-.sponsors {
-  padding: 75px 0;
-  width: 100%;
-  height: 100%;
-}
-
-.sponsors-item {
-  margin-bottom: 25px;
-}
-
-.img-sponsors {
-  margin: 0 auto;
-}
-
-/* Contacto */
-
-.contacto {
-  color: #ffffff;
-  background: #0a5175;
-  padding: 75px 0;
-  height: 100%;
-  width: 100%;
-}
-
-/* Map */
-
-.map {
-  height: 80%;
-}
-
-/* Fechas */
-
-.fechas{
-  height: 80%;
-  width: 75%;
-  padding: 75px 0;
-  margin: 0 auto;
-}
-
-/* Footer */
-
-.footer {
-  position: relative;
-  margin-top: -10em;
-  height: 10em;
-  clear:both;
-  background-color: #7fbbda;
-  display: none;
-}
-.index-footer-header{
-  font-size: 0.8em;
-  font-weight: bold;
-  padding: 10px;
-  color: #ffffff;
-}
-.index-footer-title{
-  font-size: 2.6em;
-  font-weight: bold;
-  color: #ffffff;
-}
-.index-footer-subtitle{
-  font-size: 1.1em;
-  color: #ffffff;
-}
 
 .top-scroll {
   margin-top: 50px;
@@ -202,12 +158,7 @@ i.scroll:hover {
   .index-title{
     font-size: 70%;
   }
-  .index-text{
-    font-size: 80%;
-  }
-  
   .map {
 	height: 75%;
   }
-
 }
